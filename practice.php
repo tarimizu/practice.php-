@@ -12,7 +12,7 @@ echo $array_month [7];
 $hello = 'Hello,';
 $name = 'taro arimizu';
 $world = 's world!';
-echo $greeting = $hello . $name . $world ;
+echo $hello . $name . $world ;
 
 $tech_boost = "tech";
 $tech_boost .= " boost";
