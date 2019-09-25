@@ -1,7 +1,7 @@
 <?php
 
 $name = "taro-arimizu" ;
-if ($name = "taro-arimizu") {echo "私は有水太朗です";}
+if ($name === "taro-arimizu") {echo "私は有水太朗です";}
 else {echo "私は有水太朗ではありません";}
 
 $total = 0;
@@ -9,7 +9,7 @@ for ($i = 0; $i <= 10000; $i++) {$total += $i;}
 echo $total;
 
 $fruits = array("apple","banana","orange","melon","water melon");
-foreach($fruits as $fruits)
+foreach($fruits as $fruit)
 {echo "要素は" . $fruits; echo "\n";}
 
 
