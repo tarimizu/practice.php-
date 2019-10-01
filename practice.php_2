@@ -10,7 +10,7 @@ echo $total;
 
 $fruits = array("apple","banana","orange","melon","water melon");
 foreach($fruits as $fruit)
-{echo "要素は" . $fruits; echo "\n";}
+{echo "要素は" . $fruit; echo "\n";}
 
 
 /* for文の始めの値を定義する */
